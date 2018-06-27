@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="LevelUp Project" max_length="40" name="x_190671_levelup_levelup_project" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project description" max_length="4000" name="project_description" type="string"/>
+        <element label="Project ID" mandatory="true" max_length="40" name="project_id" type="string_full_utf8"/>
+        <element display="true" label="Project name" mandatory="true" max_length="125" name="project_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_190671_levelup_levelup_project">x_190671_levelup_levelup_project</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LUPRJ</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 18:00:35</sys_created_on>
+        <sys_id>d5f123cc0f83130089a548dce1050ef7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LUPRJ</sys_name>
+        <sys_package display_value="LevelUp" source="x_190671_levelup">56115b400f83130089a548dce1050e18</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LevelUp">56115b400f83130089a548dce1050e18</sys_scope>
+        <sys_update_name>sys_number_d5f123cc0f83130089a548dce1050ef7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 18:00:35</sys_updated_on>
+    </sys_number>
+</record_update>

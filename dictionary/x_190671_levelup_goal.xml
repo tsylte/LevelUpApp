@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Goal" max_length="40" name="x_190671_levelup_goal" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_190671_levelup_goal_category" type="reference"/>
+        <element label="Goal description" max_length="4000" name="goal_description" type="string"/>
+        <element label="Goal ID" mandatory="true" max_length="40" name="goal_id" type="string"/>
+        <element display="true" label="Goal name" mandatory="true" max_length="125" name="goal_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_190671_levelup_levelup_project" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+        <index name="index2">
+            <element name="category"/>
+        </index>
+    </element>
+</database>

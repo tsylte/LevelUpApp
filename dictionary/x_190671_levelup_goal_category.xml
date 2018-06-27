@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Goal Category" max_length="40" name="x_190671_levelup_goal_category" type="collection">
+        <element label="Goal Category ID" mandatory="true" max_length="40" name="goal_category_id" type="string"/>
+    </element>
+</database>
